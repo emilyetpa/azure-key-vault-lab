@@ -1,0 +1,29 @@
+# Bicep generated files
+*.json.bicep
+
+# Azure CLI / deployment artifacts
+*.log
+
+# Generated ARM template
+main.json
+
+# doc
+How-to-build-the-modules-Best-procedures.docx
+
+# SSH private keys
+*.pem
+id_rsa
+id_ed25519
+id_ecdsa
+
+# Environment / secret files
+.env
+.env.*
+secrets.json
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
